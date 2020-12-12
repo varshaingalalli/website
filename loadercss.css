@@ -23,7 +23,7 @@
   .loader1{
     width:200px;
     height:200px;
-    background:#15121d;
+    background:white;
     position: absolute;
     border-radius: 50%;
     animation:rotate 2s linear infinite normal;
@@ -32,7 +32,7 @@
     content: "";
       width: 100px;
       height: 200px;
-      background: linear-gradient(to top, transparent, rgba(255, 255, 0, 0.9));
+      background: linear-gradient(to top, transparent,#b224ef);
       background-size: 100px 180px;
       background-repeat: no-repeat;
       position: absolute;
@@ -45,21 +45,21 @@
     content: "";
     width: 5px;
     height: 5px;
-    background: rgba(255, 255, 0, 1);
+    background:#b224ef;
     position: absolute;
     top: 0px;
     left: 97.5px;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(255, 255, 0, 0.9), 0 0 20px rgba(255, 255, 0, 0.9),
-      0 0 30px rgba(255, 255, 0, 0.9), 0 0 40px rgba(255, 255, 0, 0.9),
-      0 0 50px rgba(255, 255, 0, 0.9), 0 0 60px rgba(255, 255, 0, 0.9),
-      0 0 70px rgba(255, 255, 0, 0.9), 0 0 80px rgba(255, 255, 0, 0.9),
-      0 0 90px rgba(255, 255, 0, 0.9), 0 0 100px rgba(255, 255, 0, 0.9);
+    box-shadow: 0 0 10px#b224ef, 0 0 20px #b224ef,
+      0 0 30px #b224ef, 0 0 40px#b224ef,
+      0 0 50px #b224ef, 0 0 60px #b224ef,
+      0 0 70px#b224ef, 0 0 80px #b224ef,
+      0 0 90px #b224ef, 0 0 100px #b224ef;
   }
   .loader1 span{
     width:190px;
     height:190px;
-    background:#15121d;
+    background:white;
     position:absolute;
     top:5px;
     left:5px;
@@ -68,7 +68,7 @@
   .loader2{
     width:160px;
     height:160px;
-    background:#15121d;
+    background:white;
     position:absolute;
     border-radius: 50%;
     animation:rotate 2s linear infinite reverse;
@@ -106,13 +106,21 @@
   .loader2 span{
     width:150px;
     height:150px;
-    background:#15121d;
+    
     position:absolute;
     top:5px;
     left:5px;
     border-radius: 50%;
   }
   
+  .loader3{
+    
+   
+    position:absolute;
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+
   @keyframes rotate{
     0%{
       transform:rotate(0);
